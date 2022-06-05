@@ -1,0 +1,10 @@
+html {
+  /*ogni volta che aggiungo un padding a ogni elemento, il padding si attacca alla pagina, border-box previene extra-padding che potrebbe essere troppo e far uscire una barra sulla pagina*/
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /*vh è view height piena altezza del window che ho */
+  min-height: 100vh;
+}
